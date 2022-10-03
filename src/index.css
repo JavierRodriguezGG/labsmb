@@ -1,0 +1,215 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.logocheese{
+  width: 50px;
+  height: 50px;
+}
+.banner{
+  max-width: 100%;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  background-image: url("./assets/background.png");
+}
+
+.navbar{
+  background-color: none !important;
+  padding: none !important;
+  box-shadow: none !important;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  margin: 0.5em 0 0.5em 0;
+}
+
+header {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  
+  padding: 10px;
+  height: 100px;
+}
+
+nav a:visited,
+nav a:link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.map {
+  height: 400px;
+  width: 100%;
+}
+
+.info-window {
+  margin: 1em;
+}
+
+.alert {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 1em;
+  background-color: red;
+  color: white;
+}
+
+.d-none {
+  display: none;
+}
+
+.mt-1 {
+  margin-top: 1em;
+}
+
+
+
+
+#mainheader {
+  background-color: #a593c2;
+}
+
+.searchbox {
+  padding: 5px;
+  margin: 10px 10px;
+  width: 200px;
+}
+
+
+nav>ul {
+  display: inline;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 5px 0 5px;
+  font-weight: bold;
+}
+.bgLila{
+  background-color: #a493c0;
+
+}
+.bglines{
+  background-image: url("./assets/background.png");
+}
+
+.bg-gray{
+  background-color: gray;
+}
+main {
+  display: block;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  min-height: 85%;
+}
+
+.container {
+  padding: 5px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  padding: 15px;
+  clear: both;
+  width: 100%;
+}
+
+aside,
+article {
+  padding: 2em;
+}
+
+aside {
+  text-align: center;
+}
+
+article {
+  width: 75%;
+}
+
+.columns {
+  display: flex;
+}
+
+@media only screen and (min-with: 768px) {
+
+  main {
+      display: flex;
+  }
+
+  aside {
+      margin-left: 2%;
+  }
+
+  .columns-desktop {
+      display: flex;
+  }
+}
+
+/* Tartas */
+
+.pie {
+  display: inline-block;
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+  border: solid 1px #ccc;
+}
+
+.pie img {
+  width: 100%;
+}
+
+.pie .title {
+  font-weight: bold;
+}
+
+.pie .columns {
+  width: 100%;
+}
+
+.pie .price {
+  text-align: right;
+}
+
+.pie .columns div {
+  width: 50%;
+}
+
+.pie button {
+  background-color: pink;
+  padding: 10px;
+  border: solid 1px pink;
+  border-radius: 3px;
+  color: #fff;
+}
